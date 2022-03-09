@@ -1,0 +1,61 @@
+@import '~bootstrap';
+
+body {
+    background-color: #cecece;
+}
+.content {
+    margin: 10px 15px 0 25px;
+    background-color: white;
+    padding: 0 5px;
+}
+.block {
+    padding: 10px 0;
+
+
+    border-top: 1px dotted red;
+    border-bottom: 1px dotted red;
+}
+h1{
+    padding-top:  5px;
+}
+
+.data {
+    display: inline-block;
+    background-color: #9a1752;
+}
+
+.content .view{
+    margin-top: 20px;
+}
+
+.page {
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.pagination {
+    flex-wrap: wrap;
+}
+.page-item{
+    color: black;
+    margin: 3px;
+}
+.page-link{
+    color: black;
+    background-color: #cecece;
+}
+.page-link:hover{
+    color: white;
+    background-color:#9a1752 ;
+}
+.active {
+    background-color: #9a1752;
+}
+.page-item.active .page-link{
+    background-color: #9a1752;
+    border-color: gray;
+}
+
+
+
+
